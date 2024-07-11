@@ -1,0 +1,134 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto; /* Center wrapper horizontally */
+    position: relative;
+}
+
+.wrapper i {
+    height: 50px; 
+    width: 50px; 
+    background: #FF6600; 
+    text-align: center; 
+    line-height: 50px; 
+    border-radius: 50%; 
+    cursor: pointer; 
+    position: absolute; 
+    top: 40%; 
+    font-size: 1.25 rem; 
+    transform: translateY(-50%); 
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.wrapper i:first-child {
+    left: -22px;
+}
+
+.wrapper i:last-child {
+    right: -22px;
+}
+
+.wrapper i:hover {
+    background-color:#ff8d41;
+}
+
+.wrapper .carousel { 
+    display: grid; 
+    grid-auto-flow: column; 
+    grid-auto-columns: auto; 
+    gap: 20px; 
+    overflow-x: auto; 
+    scroll-snap-type: x mandatory; 
+    scroll-behavior: smooth; 
+    scrollbar-width: 0; 
+}
+
+.carousel::-webkit-scrollbar { 
+    display: none; 
+}
+
+.carousel :where(.card, .img) { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.carousel.dragging { 
+    scroll-snap-type: none; 
+    scroll-behavior: auto; 
+}
+
+.carousel.no-transition { 
+    scroll-behavior: auto; 
+}
+
+.carousel.dragging .card { 
+    cursor: grab; 
+    user-select: none; 
+}
+
+.carousel .card { 
+    scroll-snap-align: start;
+    width: 200px;
+    height: 380px; 
+    list-style: none; 
+    border-radius: 20px; 
+    display: flex; 
+    cursor: pointer; 
+    padding-bottom: 15px; 
+    align-items: left; 
+    justify-content: start; 
+    flex-direction: column;
+    text-align: left;
+}
+
+.card .img { 
+    width: 200px; 
+    height: 300px;
+}
+
+.card .img img { 
+    width: 200px; 
+    height: 300px; 
+    object-fit: cover; 
+    border-radius: 20px;
+}
+
+.card h3 { 
+    font-weight: 400;
+    font-size: 16px; 
+    margin: 18px 0 5px;
+    color:black;
+}
+
+.card span { 
+    font-weight: 500;
+    font-size: 16px; 
+    bottom: 1px;
+}
+
+.card h3:hover {
+    color:#FF6600;
+}
+
+.h3:active .h3:focus {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 900px) { 
+    .wrapper .carousel { 
+        grid-auto-columns: auto; 
+  
+    } 
+} 
+  
+@media screen and (max-width: 600px) { 
+    .wrapper .carousel { 
+        grid-auto-columns: auto; 
+  
+    } 
+}
+
