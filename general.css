@@ -10,7 +10,6 @@
 
 .body a {
     text-decoration: none;
-    width: fit-content;
 }
 
 .hero {
@@ -21,17 +20,16 @@
 .full-images {
     display: block;
     width: 100%;
-    max-width: 600px;
+    max-width: 400px;
     margin: -10px auto;
 }
 
 .top-logo {
     width: 70px;
     height: 70px;
-    margin-top: 10px;
 
     position: absolute;
-    top: 5%;
+    top: 7.5%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -66,47 +64,46 @@
     background-color:#ff8d41;
 }
 
-.social-links-block  {
+.social-links  {
     width: 100%;
-    max-width: 600px;
+    max-width: 400px;
     margin: 0 auto;
     padding-top: 60px;
+    padding-bottom: 16px;
     text-align: center;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
 }
 
-.social-links {
+.social-links button {
     background-color:#FF6600;
     color: #FCF6EF;
     border: none;
     border-radius: 26px;
+    width: 48%;
     max-width: 220px;
     height: 60px;
-    width: 220px;
 
     font-size: 24px;
     font-weight: 900;
+    text-align: center;
     letter-spacing: 1.9px;
     font-family: Bitter;
     cursor: pointer;
+    
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
-
-    margin-bottom: 20px;
-
+    
     display: flex;
     align-items: center;
     justify-content: center;
+  
+    margin: 0 auto; /* Center wrapper horizontally */
+    position: relative;
+
+    margin-bottom: 20px;
+    padding: 10px 20px;
 }
 
-.social-links button:last-child {
-    margin-bottom: 0;
-}
-
-.social-links:hover {
+.social-links button:hover {
     background-color:#ff8d41;
 }
 
@@ -115,13 +112,12 @@
     align-items: center;
     justify-content: center;
     margin-bottom:-18px;
-    margin-left: 10px;
 }
 
 .titles {
     font-size: 28px;
     font-weight: 500;
-    width: 600px;
+    width: 400px;
     text-align: left;
 }
 
@@ -135,35 +131,34 @@
 .about {
     color:#FF6600;
     text-align: center;
-    width: 96%;
-    max-width: 600px;
+    width: 100%;
+    max-width: 400px;
     display: block;
     margin: 0 auto;
-
-    margin-bottom: 32px;
 }
 
 .footer {
     width: 100%;
-    max-width: 600px;
+    max-width: 400px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
+    padding-top: 30px;
+
     text-align: center;
     margin: 0 auto;
 }
 
 .bottom-logo {
-    padding-top: 30px;
     width: 50px;
-    margin-bottom: 10px;
+
 }
 
 .copyright {
     color:#FF6600;
     font-size: 12px;
-    margin-top: 4px;
+
 }
