@@ -163,8 +163,8 @@
 
 }
 
-@media screen and (max-width: 320px) {
-    .full-images, .social-links, .titles, .about, .footer {
+@media only screen and (max-width: 320px) {
+    .full-images .social-links .titles .about .footer {
         max-width:none;
     }
 
