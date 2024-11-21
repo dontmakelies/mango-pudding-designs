@@ -66,7 +66,6 @@
 
 .social-links  {
     width: 100%;
-    max-width: 600px;
     margin: 0 auto;
     padding-top: 60px;
     padding-bottom: 16px;
@@ -117,7 +116,6 @@
 .titles {
     font-size: 28px;
     font-weight: 500;
-    width: 600px;
     text-align: left;
 }
 
@@ -139,7 +137,6 @@
 
 .footer {
     width: 100%;
-    max-width: 600px;
 
     display: flex;
     flex-direction: column;
@@ -164,8 +161,22 @@
 }
 
 @media only screen and (max-width: 320px) {
-    .full-images .social-links .titles .about .footer {
-        max-width:none;
+    .full-images .about {
+        max-width: 100%;
     }
 
+    .body {
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (min-width:321px) and (max-width:768px) {
+    .full-images .about {
+        max-width: 100%;
+    }
+
+    .body {
+        justify-content: center;
+    }
 }
