@@ -1,3 +1,10 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
 .body {
     background-color: #FCF6EF;
     font-family: Rubik;
@@ -164,6 +171,17 @@
     .full-images .about {
         max-width: none;
         margin: 0;
+    }
+
+    .full-images {
+        display: block;
+        width: 100%;
+    }
+
+    .hero {
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
 }
