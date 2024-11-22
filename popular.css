@@ -118,14 +118,10 @@
     text-decoration: none;
 }
 
-@media only screen and (max-width: 320px) { 
-    .wrapper { 
-        max-width:none ; 
-    } 
-}
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        max-width: none;
+        margin: 0;
+    }
 
-@media only screen and (min-width:321px) and (max-width:768px) {
-    .wrapper { 
-        max-width:none ; 
-    } 
 }

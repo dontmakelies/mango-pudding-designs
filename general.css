@@ -160,23 +160,10 @@
 
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 768px) {
     .full-images .about {
-        max-width: 100%;
+        max-width: none;
+        margin: 0;
     }
 
-    .body {
-        justify-content: center;
-    }
-
-}
-
-@media only screen and (min-width:321px) and (max-width:768px) {
-    .full-images .about {
-        max-width: 100%;
-    }
-
-    .body {
-        justify-content: center;
-    }
 }
