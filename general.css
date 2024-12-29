@@ -82,11 +82,10 @@ html, body {
 .social-links  {
     width: 100%;
     margin: 0 auto;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 80px;
+    padding-bottom: 30px;
     text-align: center;
     max-width: 50%;
-
 }
 
 .social-links button {
@@ -114,7 +113,6 @@ html, body {
     margin: 0 auto; /* Center wrapper horizontally */
 
     margin-bottom: 20px;
-    padding: 10px 20px;
 }
 
 .social-links button:hover {
