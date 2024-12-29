@@ -77,7 +77,6 @@ html, body {
     padding-top: 60px;
     padding-bottom: 16px;
     text-align: center;
-
 }
 
 .social-links button {
@@ -158,30 +157,52 @@ html, body {
 
 .bottom-logo {
     width: 50px;
-
 }
 
 .copyright {
     color:#FF6600;
     font-size: 12px;
-
 }
 
 @media only screen and (max-width: 768px) {
-    .full-images .about {
+    .full-images {
+        width: 100%;
         max-width: none;
         margin: 0;
-    }
-
-    .full-images {
-        display: block;
-        width: 100%;
     }
 
     .hero {
         width: 100%;
         margin: 0;
         padding: 0;
+    }
+
+    .wrapper {
+        max-width: none;
+        margin: 0;
+        padding: 0 10px;
+        width: 100%;
+    }
+
+    .shop-buttons, 
+    .social-links button {
+        width: 90%;
+        max-width: none;
+    }
+
+    .about {
+        max-width: none;
+        padding: 0 10px;
+    }
+
+    .titles, .our-story {
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .footer {
+        padding: 0 10px;
+        text-align: center;
     }
 
 }
