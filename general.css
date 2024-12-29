@@ -1,3 +1,8 @@
+/* * {
+    border: 1px solid red;
+
+} */
+
 html, body {
     margin: 0;
     padding: 0;
@@ -21,13 +26,16 @@ html, body {
 
 .hero {
     position: relative;
-    width: 100%; 
+    width: 100%;
+    max-width: 100%; 
+    margin: 0;
+    padding: 0;
 }
 
 .full-images {
     display: block;
     width: 100%;
-    max-width: 600px;
+    max-width: 50%;
     margin: -10px auto;
 }
 
@@ -74,9 +82,11 @@ html, body {
 .social-links  {
     width: 100%;
     margin: 0 auto;
-    padding-top: 60px;
-    padding-bottom: 16px;
+    padding-top: 3%;
+    padding-bottom: 3%;
     text-align: center;
+    max-width: 50%;
+
 }
 
 .social-links button {
@@ -102,7 +112,6 @@ html, body {
     justify-content: center;
   
     margin: 0 auto; /* Center wrapper horizontally */
-    position: relative;
 
     margin-bottom: 20px;
     padding: 10px 20px;
@@ -123,12 +132,14 @@ html, body {
     font-size: 28px;
     font-weight: 500;
     text-align: left;
+    max-width: 50%;
 }
 
-.our-story {
-    font-size: 28px;
-    font-weight: 500;
-    text-align: center;
+.story-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:-18px;
 }
 
 
@@ -136,7 +147,7 @@ html, body {
     color:#FF6600;
     text-align: center;
     width: 100%;
-    max-width: 600px;
+    max-width: 50%;
     display: block;
     margin: 0 auto;
 }
@@ -184,7 +195,11 @@ html, body {
         width: 100%;
     }
 
-    .shop-buttons, 
+    .shop-buttons {
+        width: 42%;
+        max-width: none;
+    }
+
     .social-links button {
         width: 90%;
         max-width: none;

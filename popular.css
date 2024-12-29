@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 600px;
+    max-width: 50%;
     width: 100%;
     margin: 0 auto;
     position: relative;
@@ -45,6 +45,8 @@
     scroll-behavior: smooth; 
     scrollbar-width: 0; 
 }
+
+
 
 .carousel::-webkit-scrollbar { 
     display: none; 
