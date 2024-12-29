@@ -196,14 +196,14 @@ html, body {
     .shop-buttons {
         width: 42%;
         max-width: none;
-        font-size: 4vw;
+        font-size: 5vw;
 
     }
 
     .social-links button {
         width: 90%;
         max-width: none;
-        font-size: 4vw;
+        font-size: 5vw;
 
     }
 
@@ -214,7 +214,7 @@ html, body {
 
     .titles, .our-story {
         text-align: center;
-        padding: 0 10px;
+        padding: auto;
     }
 
     .footer {
